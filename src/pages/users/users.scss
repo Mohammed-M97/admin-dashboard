@@ -1,0 +1,36 @@
+@import '../../styles/responsive.scss';
+
+.users {
+    height: 100%;
+
+    @include lg{
+        height: 90vh;
+    }
+
+    .info {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 20px;
+
+        button {
+            padding: 5px;
+            cursor: pointer;
+            padding: 5px 10px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            border: none;
+            /* Removes default border */
+            border-radius: 5px;
+            /* Adds rounded corners */
+            transition: background-color 0.3s ease;
+            /* Smooth transitions */
+            &:hover {
+                background-color: #bb1e38;
+                color: white;
+            }
+        }
+    }
+}

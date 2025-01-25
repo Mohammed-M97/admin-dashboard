@@ -2,6 +2,8 @@
 
 This is admin dashboard build with React and connect with API
 
+[Demo](https://sage-kangaroo-d5f862.netlify.app/)
+
 ## Simples
 ![simple 1](./public/Capture01.JPG)
 
